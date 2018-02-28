@@ -1,6 +1,48 @@
 body {
-  background-color: 4ABDFF;
-  color: blue;
+  color: brown;
   font-family: "Helvetica";
   font-size: 20px;
+  background: rgba(228,178,240,1);
+  background: -moz-linear-gradient(top, rgba(228,178,240,1) 0%, rgba(235,33,154,1) 19%, rgba(255,41,3,1) 28%, rgba(31,239,45,1) 53%, rgba(31,201,155,1) 65%, rgba(31,172,237,1) 74%, rgba(235,225,33,1) 94%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,178,240,1)), color-stop(19%, rgba(235,33,154,1)), color-stop(28%, rgba(255,41,3,1)), color-stop(53%, rgba(31,239,45,1)), color-stop(65%, rgba(31,201,155,1)), color-stop(74%, rgba(31,172,237,1)), color-stop(94%, rgba(235,225,33,1)));
+  background: -webkit-linear-gradient(top, rgba(228,178,240,1) 0%, rgba(235,33,154,1) 19%, rgba(255,41,3,1) 28%, rgba(31,239,45,1) 53%, rgba(31,201,155,1) 65%, rgba(31,172,237,1) 74%, rgba(235,225,33,1) 94%);
+  background: -o-linear-gradient(top, rgba(228,178,240,1) 0%, rgba(235,33,154,1) 19%, rgba(255,41,3,1) 28%, rgba(31,239,45,1) 53%, rgba(31,201,155,1) 65%, rgba(31,172,237,1) 74%, rgba(235,225,33,1) 94%);
+  background: -ms-linear-gradient(top, rgba(228,178,240,1) 0%, rgba(235,33,154,1) 19%, rgba(255,41,3,1) 28%, rgba(31,239,45,1) 53%, rgba(31,201,155,1) 65%, rgba(31,172,237,1) 74%, rgba(235,225,33,1) 94%);
+  background: linear-gradient(to bottom, rgba(228,178,240,1) 0%, rgba(235,33,154,1) 19%, rgba(255,41,3,1) 28%, rgba(31,239,45,1) 53%, rgba(31,201,155,1) 65%, rgba(31,172,237,1) 74%, rgba(235,225,33,1) 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4b2f0', endColorstr='#ebe121', GradientType=0 );
+}
+
+#grad1 {
+    background: linear-gradient(to bottom right, #4ABDFF, #823EE8);
+    border: 5px ;
+    border-color: red green blue yellow;
+    border-style: dotted;
+    box-shadow: 0 0 20px 2px #ff00fe;
+
+background-size:
+
+}
+
+p {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+}
+
+#h6 {
+float: left;
+background: linear-gradient(to bottom right, #4ABDFF, #823EE8);
+border: 5px ;
+border-color: red green blue yellow;
+border-style: dotted;
+background-size: ;
+padding-left: 5%;
+margin: 0 0 0 8%;
+clear: left;
+display: inline-block;
+}
+
+h1 {
+padding: 4px 15px;
+border-radius: 5px;
+text-shadow: -21px -21px 10px #fff, 21px 21px 10px #fff;
 }
